@@ -1,0 +1,472 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 66716537449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To test the generate customer id functionality",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 3069831791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4160140397,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is in add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2505557374,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user fill in the valid customer details",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_fill_in_the_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "test"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "emailAddress",
+                  "test@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNo",
+                  "7894561230"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2822784377,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271835228,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should see the customer id generated",
+            "match": {
+              "location": "AccessPagesteps.the_user_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@us1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14082793294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To test the generate customer id functionality2",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality2",
+        "after": [
+          {
+            "result": {
+              "duration": 951270493,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "the user is in add customer pages",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21096,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "The user fill in the invalid customer details",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_fill_in_the_invalid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "test"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "emailAddress",
+                  "testgmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNo",
+                  "7894561230"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10833,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9122,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "the user should see the error message",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_should_see_the_error_message()"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invalid email",
+                  "",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15312128040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "To test the generate customer id functionality3",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality3",
+        "after": [
+          {
+            "result": {
+              "duration": 3432071982,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1675373428,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user is in add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029670115,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user is not fill in the customer phone number",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_is_not_fill_in_the_customer_phone_number(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "test"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "emailAddress",
+                  "test@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNo",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1057797941,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user click  submit button",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136408524,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user should see the popup message",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_should_see_the_popup_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9282348454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "To test the generate customer id functionality4",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality4",
+        "after": [
+          {
+            "result": {
+              "duration": 967510431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2003157559,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is in add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228679059,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "The user fill in the valid customer details",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_fill_in_the_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "test"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "emailAddress",
+                  "test@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNo",
+                  "7894561230"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160902705,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "the user click the reset button",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_click_the_reset_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41364718,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "the user should see the empty fields",
+            "match": {
+              "location": "AddcustomerpageSteps.the_user_should_see_the_empty_fields()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/main/java/features/AddCustomer.feature",
+    "tags": []
+  }
+]
