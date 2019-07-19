@@ -9,9 +9,10 @@ import cucumber.api.java.Before;
 public class Hooks {
 public static WebDriver driver;
 @Before
-public static void before() {
+public static void before() throws Throwable {
 	   System.setProperty("webdriver.chrome.driver", "C:\\Users\\swamy\\Desktop\\JAVA\\eclipse\\pravee\\Day10\\driver\\chromedriver.exe");
 	   driver=new ChromeDriver();
+	   Thread.sleep(5000);
 	   driver.get("http://demo.guru99.com/telecom/");
 	
 }

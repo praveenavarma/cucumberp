@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 66716537449,
+              "duration": 27282074776,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 3069831791,
+              "duration": 1192461198,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4160140397,
+              "duration": 4747149473,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2505557374,
+              "duration": 2400680546,
               "status": "passed"
             },
             "line": 8,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 2822784377,
+              "duration": 16535775416,
               "status": "passed"
             },
             "line": 14,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 271835228,
+              "duration": 301735119,
               "status": "passed"
             },
             "line": 15,
@@ -123,7 +123,7 @@
         "before": [
           {
             "result": {
-              "duration": 14082793294,
+              "duration": 19718215437,
               "status": "passed"
             },
             "match": {
@@ -138,7 +138,7 @@
         "after": [
           {
             "result": {
-              "duration": 951270493,
+              "duration": 926873240,
               "status": "passed"
             },
             "match": {
@@ -151,17 +151,20 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1967387847,
+              "status": "passed"
             },
             "line": 18,
-            "name": "the user is in add customer pages",
-            "match": {},
+            "name": "the user is in add customer page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_add_customer_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 21096,
-              "status": "skipped"
+              "duration": 1698453605,
+              "status": "passed"
             },
             "line": 19,
             "name": "The user fill in the invalid customer details",
@@ -204,8 +207,8 @@
           },
           {
             "result": {
-              "duration": 10833,
-              "status": "skipped"
+              "duration": 1631376270,
+              "status": "passed"
             },
             "line": 25,
             "name": "the user click the submit button",
@@ -216,23 +219,14 @@
           },
           {
             "result": {
-              "duration": 9122,
-              "status": "skipped"
+              "duration": 287711402,
+              "status": "passed"
             },
             "line": 26,
             "name": "the user should see the error message",
             "match": {
               "location": "AddcustomerpageSteps.the_user_should_see_the_error_message()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "invalid email",
-                  "",
-                  ""
-                ]
-              }
-            ],
             "keyword": "Then "
           }
         ]
@@ -241,7 +235,7 @@
         "before": [
           {
             "result": {
-              "duration": 15312128040,
+              "duration": 39930262286,
               "status": "passed"
             },
             "match": {
@@ -249,14 +243,14 @@
             }
           }
         ],
-        "line": 29,
+        "line": 28,
         "name": "To test the generate customer id functionality3",
         "description": "",
         "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality3",
         "after": [
           {
             "result": {
-              "duration": 3432071982,
+              "duration": 2790647739,
               "status": "passed"
             },
             "match": {
@@ -269,10 +263,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1675373428,
+              "duration": 1003373652,
               "status": "passed"
             },
-            "line": 30,
+            "line": 29,
             "name": "the user is in add customer page",
             "match": {
               "location": "HomePageSteps.the_user_is_in_add_customer_page()"
@@ -281,10 +275,10 @@
           },
           {
             "result": {
-              "duration": 1029670115,
+              "duration": 975843926,
               "status": "passed"
             },
-            "line": 31,
+            "line": 30,
             "name": "The user is not fill in the customer phone number",
             "match": {
               "location": "AddcustomerpageSteps.the_user_is_not_fill_in_the_customer_phone_number(DataTable)"
@@ -325,10 +319,10 @@
           },
           {
             "result": {
-              "duration": 1057797941,
+              "duration": 230357618,
               "status": "passed"
             },
-            "line": 37,
+            "line": 36,
             "name": "the user click  submit button",
             "match": {
               "location": "AddcustomerpageSteps.the_user_click_submit_button()"
@@ -337,10 +331,10 @@
           },
           {
             "result": {
-              "duration": 136408524,
+              "duration": 31984975,
               "status": "passed"
             },
-            "line": 38,
+            "line": 37,
             "name": "the user should see the popup message",
             "match": {
               "location": "AddcustomerpageSteps.the_user_should_see_the_popup_message()"
@@ -353,7 +347,7 @@
         "before": [
           {
             "result": {
-              "duration": 9282348454,
+              "duration": 37406922685,
               "status": "passed"
             },
             "match": {
@@ -361,14 +355,14 @@
             }
           }
         ],
-        "line": 40,
+        "line": 39,
         "name": "To test the generate customer id functionality4",
         "description": "",
         "id": "to-test-add-customer-functionality;to-test-the-generate-customer-id-functionality4",
         "after": [
           {
             "result": {
-              "duration": 967510431,
+              "duration": 2728709277,
               "status": "passed"
             },
             "match": {
@@ -381,10 +375,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2003157559,
+              "duration": 1338576737,
               "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "the user is in add customer page",
             "match": {
               "location": "HomePageSteps.the_user_is_in_add_customer_page()"
@@ -393,10 +387,10 @@
           },
           {
             "result": {
-              "duration": 1228679059,
+              "duration": 1256047999,
               "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "The user fill in the valid customer details",
             "match": {
               "location": "AddcustomerpageSteps.the_user_fill_in_the_valid_customer_details(DataTable)"
@@ -437,10 +431,10 @@
           },
           {
             "result": {
-              "duration": 160902705,
+              "duration": 146211898,
               "status": "passed"
             },
-            "line": 48,
+            "line": 47,
             "name": "the user click the reset button",
             "match": {
               "location": "AddcustomerpageSteps.the_user_click_the_reset_button()"
@@ -449,10 +443,10 @@
           },
           {
             "result": {
-              "duration": 41364718,
+              "duration": 47362258,
               "status": "passed"
             },
-            "line": 49,
+            "line": 48,
             "name": "the user should see the empty fields",
             "match": {
               "location": "AddcustomerpageSteps.the_user_should_see_the_empty_fields()"

@@ -15,7 +15,7 @@ Feature: To test add customer functionality
     Then the user should see the customer id generated 
     
   Scenario: To test the generate customer id functionality2
-    Given the user is in add customer pages
+    Given the user is in add customer page
     When The user fill in the invalid customer details
     |firstName   |test          |
     |lastName    |selenium      |
@@ -24,7 +24,6 @@ Feature: To test add customer functionality
     |phNo        |7894561230    |
     And the user click the submit button
     Then the user should see the error message 
-    |invalid email|||
    
    Scenario: To test the generate customer id functionality3
     Given the user is in add customer page

@@ -101,12 +101,14 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user is in add customer pages",
+  "name": "the user is in add customer page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "HomePageSteps.the_user_is_in_add_customer_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user fill in the invalid customer details",
@@ -148,7 +150,7 @@ formatter.match({
   "location": "AddcustomerpageSteps.the_user_fill_in_the_invalid_customer_details(DataTable)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user click the submit button",
@@ -158,26 +160,17 @@ formatter.match({
   "location": "AddcustomerpageSteps.the_user_click_the_submit_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "the user should see the error message",
-  "rows": [
-    {
-      "cells": [
-        "invalid email",
-        "",
-        ""
-      ]
-    }
-  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "AddcustomerpageSteps.the_user_should_see_the_error_message()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
